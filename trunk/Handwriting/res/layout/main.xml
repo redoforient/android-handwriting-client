@@ -3,10 +3,10 @@
 	android:orientation="vertical" android:layout_width="fill_parent"
 	android:layout_height="fill_parent">
 	<TextView android:layout_width="fill_parent"
-		android:layout_height="wrap_content" android:text="@string/draw" />
+		android:layout_height="wrap_content" android:text="@string/draw" android:id="@+id/draw_prompt"/>
 
 <net.woft.handwriting.FingerDrawView
-	android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1" android:id="@+id/draw_view"/>
+	android:id="@+id/draw_view" android:layout_height="256dip" android:layout_width="256dip" android:layout_gravity="center_horizontal"/>
 <LinearLayout android:id="@+id/button_panel" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
 <Button android:layout_height="wrap_content" android:id="@+id/reco_button" android:text="Reco" android:layout_width="fill_parent" android:layout_weight="1"/>
 <Button android:layout_height="wrap_content" android:id="@+id/reset_button" android:layout_weight="1" android:layout_width="fill_parent" android:text="Reset"></Button><Button android:layout_height="wrap_content" android:id="@+id/quit_button" android:text="Quit" android:layout_width="fill_parent" android:layout_weight="1"/>
