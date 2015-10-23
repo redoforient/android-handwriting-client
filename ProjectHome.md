@@ -1,0 +1,1 @@
+This is an experimental client application for handwriting Chinese characters in Android platform. It has no actual use yet, just demonstrating collecting point samples and communicating with backend recognition server.
